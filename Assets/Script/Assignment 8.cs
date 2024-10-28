@@ -7,7 +7,7 @@ public class Assignment8 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("new");
     }
 
     // Update is called once per frame
