@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Assignment8 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Exercise 1: Number Generator:
     void Start()
     {
-        Debug.Log("new");
-    }
+        int randomnumbers; 
+        while(true){
+            randomnumbers = Random.Range(1,20);
+            if(randomnumbers == 5){
+                continue;
+            }
+            else{
+                
+                if(randomnumbers == 15){
+                break;
+                }
+                Debug.Log(randomnumbers);
+            }
 
-    // Update is called once per frame
-    void Update()
-    {
+        }
         
     }
+
 }
